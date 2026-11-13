@@ -33,3 +33,14 @@ for i in range(2,n):
         break
     else:
         print("prime")
+
+    # factorial
+
+k = int(input("Enter a number to find the factorial "))
+
+fact = 1
+
+for j in range(1,n+1):
+    fact = fact*j
+
+print("Factorial: ",fact)
