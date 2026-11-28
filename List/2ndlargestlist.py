@@ -9,7 +9,7 @@ for i in numbers:
         largest = i
 
     elif i>second_largest and i!=largest:
-        second_largest = 1
+        second_largest = i
 
 print(second_largest)
 
