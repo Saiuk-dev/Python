@@ -15,3 +15,10 @@ for i in text:
         t1 += i
 
 print(t1)
+
+seen = set()
+for i in text:
+    if i not in seen:
+        result += i
+        seen.add(i)
+print(seen)
