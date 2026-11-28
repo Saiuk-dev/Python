@@ -1,9 +1,9 @@
-text = "Jai Bajrangbali , My boss Hanuman"
+text = "jai shree ram "
 
 vowels = 0
 consonants = 0
 
-for i in str.lower():
+for i in text.lower():
     if i in "aeiou":
         vowels += 1
 
