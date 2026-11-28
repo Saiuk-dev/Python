@@ -7,3 +7,12 @@ for i in words:
 
 print(" ".join(result))
 
+
+#to reverse a whole string 
+r2 = text[::-1]
+print(r2)
+rev = ""
+for i in text:
+    rev = i + rev
+
+print(rev)
